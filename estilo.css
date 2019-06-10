@@ -4,6 +4,10 @@
   font-family: arial;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 curri{
   font-size:50px;
   color:#2e74b5;
