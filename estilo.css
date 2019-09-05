@@ -95,7 +95,64 @@ label[for="bt_menu"]{
   display:none;
 }
 
-@media(max-width:800px){
+@media only screen and (min-width:480px){
+  .menu ul li{
+    width: 100%;
+    float: none;
+  }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .menu ul li{
+    width: 100%;
+    float: none;
+  }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width:960px){
+  .menu ul li{
+    width: 100%;
+    float: none;
+  }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width:1280px){
   .menu ul li{
     width: 100%;
     float: none;
