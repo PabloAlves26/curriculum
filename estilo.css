@@ -96,46 +96,46 @@ label[for="bt_menu"]{
 }
 
 @media (max-width:480px){
-
+  .menu ul li{
+    width: 100%;
+    float: none;
+  }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
 }
 
 @media (max-width:768px){
+  .menu ul li{
+    width: 100%;
+    float: none;
+  }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
 }
 
 @media (max-width:960px){
-  .menu ul li{
-    width: 100%;
-    float: none;
-  }
-  .menu{
-    position: fixed;
-    margin-left: -100%;
-    transition: all .4s;
-  }
-  label[for="bt_menu"]{
-    display:block;
-  }
-  #bt_menu:checked~.menu{
-    margin-top: 50px;
-    margin-left: 0;
-  }
+
 }
 
 @media (min-width:1280px){
-  .menu ul li{
-    width: 100%;
-    float: none;
-  }
-  .menu{
-    position: fixed;
-    margin-left: -100%;
-    transition: all .4s;
-  }
-  label[for="bt_menu"]{
-    display:block;
-  }
-  #bt_menu:checked~.menu{
-    margin-top: 50px;
-    margin-left: 0;
-  }
 }
