@@ -95,11 +95,11 @@ label[for="bt_menu"]{
   display:none;
 }
 
-@media only screen and (min-width:480px){
+@media screen and (max-width:480px){
 
 }
 
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
   .menu ul li{
     width: 100%;
     float: none;
@@ -118,7 +118,7 @@ label[for="bt_menu"]{
   }
 }
 
-@media screen and (min-width:960px){
+@media screen and (max-width:960px){
   .menu ul li{
     width: 100%;
     float: none;
