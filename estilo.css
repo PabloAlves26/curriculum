@@ -95,7 +95,7 @@ label[for="bt_menu"]{
   display:none;
 }
 
-@media (max-width:800px){
+@media (min-width:800px){
   .menu ul li{
     width: 100%;
     float: none;
