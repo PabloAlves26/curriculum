@@ -100,6 +100,18 @@ label[for="bt_menu"]{
     width: 100%;
     float: none;
   }
+  .menu{
+    position: fixed;
+    margin-left: -100%;
+    transition: all .4s;
+  }
+  label[for="bt_menu"]{
+    display:block;
+  }
+  #bt_menu:checked~.menu{
+    margin-top: 50px;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width:768px){
