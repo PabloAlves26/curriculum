@@ -1,21 +1,39 @@
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
   font-family: arial;
 }
-
 html {
     scroll-behavior: smooth;
 }
 
 curri{
+  font-weight: bold;
   font-size:50px;
   color:#2e74b5;
 }
 
 nomecomp{
+  font-weight: bold;
   font-size: 30px;
   color:#585858;
+}
+.cabeçalho{
+  align-self: center;
+  width: 100%;
+  height:220px;
+}
+.titulo{
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  float: left;
+}
+.foto{
+  align-items: center;
+  width: 200px;
+  height: 100%;
+  float: left;
 }
 .nome{
   width: 100%;
@@ -92,10 +110,11 @@ label[for="bt_menu"]{
 }
 
 #bt_menu{
+
   display:none;
 }
 
-@media (max-width:1920px){
+@media (max-width:480px){
   .menu ul li{
     width: 100%;
     float: none;
@@ -112,9 +131,10 @@ label[for="bt_menu"]{
     margin-top: 50px;
     margin-left: 0;
   }
+
 }
 
-/*@media (max-width:768px){
+@media (max-width:768px){
   .menu ul li{
     width: 100%;
     float: none;
@@ -130,12 +150,17 @@ label[for="bt_menu"]{
   #bt_menu:checked~.menu{
     margin-top: 50px;
     margin-left: 0;
+  }
+  .titulo{
+    width: 100%;
   }
 }
 
 @media (max-width:960px){
-
+  .titulo{
+    width: 70%;
+  }
 }
 
 @media (min-width:1280px){
-}/*
+}
